@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    <div id='completed'>
+        <h2>Completed Projects</h2>
+        <h4>Python and Machine Learning</h4>
+        <ul class="python project-list">
+            <li id="item1">Web Scraping <br>
+                <span class="description python">
+                    Scrapes information pertainig to financial indicators and economic announcements at given dates from the <a>MyFxBook Website</a>
+                </span>
+            </li>
+            <li id="item2">Simulated Marketplace <br>
+                <span class="description python">
+                    Uses Pytorch to infer the category a product uploaded onto a simulated market place belongs to based off the product description and image. 
+                </span>
+            </li>
+        </ul>
+        <h4>Web Development</h4>
+        <ul class="web project-list">
+            <li id="item5">Mixed Messages <br>
+                <span class="description web">
+                Generates random quotes specific. User has option to select from a given selection of genre and adjust the number of quotes output at a given instance. Used the <a>Quote Garden API</a>
+                </span>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="in-progress">
+        <h3>In Progress</h3>
+        <h4>Python and Machine Learning</h4>
+        <ul class="python project-list">
+            <li id="item7">Kafka<br>
+                <span class="description python">""</span>
+                <button class="mark-complete">Mark As Completed</button>
+            </li>
+        </ul>
+
+        <h4>Web Development</h4>
+        <ul class="web project-list">
+            <li id="item6">Static Site<br>
+                <span class="description web">""</span>
+                <button class="mark-complete">Mark As Completed</button>
+            </li>
+
+        </ul>
+    </div>
+    <button>Add New Project</button>
+</body>
+</html>
